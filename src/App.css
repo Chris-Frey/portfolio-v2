@@ -1,0 +1,129 @@
+:root  {
+  --background-color-cards: rgb(19, 29, 53);
+  --background-color: #0f172a;
+  --text-color-fade: rgb(187, 184, 184);
+  --text-color-white: #e2e8f0;
+  --text-color-pink: #ff5792;
+  --text-color-orange: rgb(255, 184, 54);
+  --text-color-blue: #49ace9;
+  --text-color-gold: #d5971a;
+  --text-color-green: #49e9a6;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid white; */
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  gap: 10px;
+  padding: 40px;
+  /* margin-left: 100px; */
+}
+
+body {
+  background-color: var(--background-color);
+  grid-column: span 1;
+  width: auto;
+
+}
+#myHeader {
+  align-items: center;
+}
+
+.header {
+  /* position: fixed; */
+  height: 400;
+
+}
+
+.header-area {
+  min-height: 300px;
+
+}
+
+@media (max-width: 650px) {
+  .header-area {
+    grid-template-columns: 1fr;
+    height: 400;
+  }
+
+}
+
+@media (min-width: 650px) {
+  .page-layout {
+    margin-left: 100px;
+  }
+  .header {
+    position: fixed;
+  }
+}
+
+.project-page {
+  margin-top: 40px;
+}
+
+h1 {
+  color: var(--text-color-pink);
+}
+
+h3 {
+  color: var(--text-color-orange);
+}
+
+p {
+  color: var(--text-color-white);
+}
+
+.about-me {
+  max-width: 700px;
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
+
+.title {
+  color: var(--text-color-blue);
+}
+
+.role-description {
+  max-width: 1000px;
+}
+
+.titleGroup {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  /* margin-top: 30px; */
+}
+
+ul {
+  margin-bottom: 30px;
+  color: var(--text-color-white);
+
+}
+
+.picture-card {
+  /* border: 5px solid red; */
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  /* 100% {
+    opacity: 1;
+  } */
+}
+
+h1 .blinky {
+  font-size: 3rem;
+  padding-right: 20px;
+  margin-left: 0;
+  display: inline-block;
+  color: var(--text-color-white);
+  animation: blink 1.5s linear infinite;
+}
