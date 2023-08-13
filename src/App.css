@@ -54,14 +54,14 @@ body {
   margin-bottom: 40px;
 }
 
-@media (max-width: 978px) {
+@media (max-width: 972px) {
   .header-area {
     grid-template-columns: 1fr;
     height: 400;
   }
 }
 
-@media (min-width: 978px) {
+@media (min-width: 972px) {
   .page-layout {
     margin-left: 100px;
   }
