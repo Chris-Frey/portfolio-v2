@@ -37,7 +37,8 @@ body {
 
 .header {
   /* position: fixed; */
-  height: 400;
+  height: 400px;
+
 
 }
 
@@ -108,17 +109,19 @@ ul {
 
 }
 
+.samples {
+  -webkit-margin-collapse: collapse;
+}
+
 .picture-card {
-  /* border: 5px solid red; */
+  z-index: 1;
+
 }
 
 @keyframes blink {
   50% {
     opacity: 0;
   }
-  /* 100% {
-    opacity: 1;
-  } */
 }
 
 h1 .blinky {

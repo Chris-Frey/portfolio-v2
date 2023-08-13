@@ -6,7 +6,7 @@ import ProjectsModal from '../Components/ProjectsModal'
 const Projects = props => {
   return (
     <div className='project-page'>
-      <h3>Work Samples</h3>
+      <h3 className='samples'>Work Samples</h3>
     <ProjectsModal />
       </div>
 
