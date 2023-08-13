@@ -15,6 +15,7 @@ const ProjectsModal = () => {
     <ReactPlayer
       url={"https://vimeo.com/851785238/31e050b03c?share=copy"}
       width='100%'
+      height='230px'
       controls='true'
       />
 

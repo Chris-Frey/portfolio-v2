@@ -15,15 +15,11 @@ const App = () => {
 
       <div className='header-area'>
         <Header />
-
       </div>
-
       <div className='body'>
+
         <section>
           <div className='aboutMeSection'>
-            {/* <div className='titleAboutMe'> */}
-
-            {/* </div> */}
           <div className='about-me'>
             <h3 className='aboutMeTitle'>About Me</h3>
             <p>Since I was a child I've been playing around with computers, and seeing what I could break. I took a detour through the <a className='word_highlight'>military</a>, and then got licensed in the <a className='word_highlight'>Landscape Architecture</a> field, where I honed my leadership and critical thinking skills. I'm now knee deep in JavaScript, React, Ruby, and other technologies that affect how we use the world around us.</p>
@@ -38,16 +34,17 @@ const App = () => {
 
             <section className="experienceDescription1">
               <h3 className='aboutMeTitle'>Experience</h3>
-              <p className="experienceDate">2023 - Present</p>
+
+              <div className="titleGroup">
+              <p className="experienceDate">August 2023 - Present</p>
                 <div className="jobRole">
-                  <p className="title"><strong>Full-Stack Developer Student</strong></p>
-                  <p className="company"><strong>LEARN Academy</strong></p>
+                  <p className="title"><strong>Full-Stack Developer Intern</strong></p>
+                  <p className="company"><strong>Gap Intelligence</strong></p>
+                </div>
                 </div>
               <ul className="role-description">
 
                 <li className='listItem'>Completed feature requests, fixed bugs, and deployed updated code for company facing applications</li>
-
-                <li className='listItem'>Deployed updates to Rails applications </li>
 
                 </ul>
 

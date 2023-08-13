@@ -20,9 +20,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: auto;
-  gap: 10px;
+  /* gap: 10px; */
   padding: 20px;
-  /* margin-left: 100px; */
 }
 
 body {
@@ -30,20 +29,31 @@ body {
   grid-column: span 1;
   width: auto;
 
+
 }
 #myHeader {
   align-items: center;
 }
 
 .header {
-  /* position: fixed; */
-  height: 400px;
-
-
+  min-height: 400px;
+  max-width: 400px;
 }
 
 .header-area {
-  min-height: 300px;
+  /* min-height: 300px; */
+  max-width: 400px;
+  padding: 20px;
+}
+
+.vp-center {
+  display: none;
+}
+
+.about-me {
+  max-width: 700px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 650px) {
@@ -59,6 +69,9 @@ body {
   }
   .header {
     position: fixed;
+  }
+  .about-me {
+    margin-top: 165px;
   }
 }
 
@@ -82,11 +95,7 @@ p {
   color: var(--text-color-white);
 }
 
-.about-me {
-  max-width: 700px;
-  margin-top: 145px;
-  margin-bottom: 40px;
-}
+
 
 .title {
   color: var(--text-color-blue);
@@ -110,12 +119,20 @@ ul {
 }
 
 .samples {
-  -webkit-margin-collapse: collapse;
+  margin: 10px;
 }
 
 .picture-card {
-  z-index: 1;
 
+
+}
+
+.app-description {
+  margin-top: 10px;
+}
+
+.app-list {
+  margin-left: 20px;
 }
 
 @keyframes blink {
