@@ -15,6 +15,7 @@ const App = () => {
 
       <div className='header-area'>
         <Header />
+
       </div>
 
       <div className='body'>
@@ -37,6 +38,19 @@ const App = () => {
 
             <section className="experienceDescription1">
               <h3 className='aboutMeTitle'>Experience</h3>
+              <p className="experienceDate">2023 - Present</p>
+                <div className="jobRole">
+                  <p className="title"><strong>Full-Stack Developer Student</strong></p>
+                  <p className="company"><strong>LEARN Academy</strong></p>
+                </div>
+              <ul className="role-description">
+
+                <li className='listItem'>Completed feature requests, fixed bugs, and deployed updated code for company facing applications</li>
+
+                <li className='listItem'>Deployed updates to Rails applications </li>
+
+                </ul>
+
               <div className="titleGroup">
                 <p className="experienceDate">2023 - Present</p>
                 <div className="jobRole">
@@ -55,6 +69,7 @@ const App = () => {
                 <li className='listItem'>Designed and created code for small applications through Test-driven development in Jest and Rspec.</li>
 
                 </ul>
+
               <div className="titleGroup">
                 <p className="experienceDate">2016 - 2022</p>
                 <div className="jobRole">

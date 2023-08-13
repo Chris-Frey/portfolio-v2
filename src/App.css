@@ -21,7 +21,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: auto;
   gap: 10px;
-  padding: 40px;
+  padding: 20px;
   /* margin-left: 100px; */
 }
 
@@ -43,7 +43,6 @@ body {
 
 .header-area {
   min-height: 300px;
-
 }
 
 @media (max-width: 650px) {
@@ -51,7 +50,6 @@ body {
     grid-template-columns: 1fr;
     height: 400;
   }
-
 }
 
 @media (min-width: 650px) {
@@ -61,6 +59,10 @@ body {
   .header {
     position: fixed;
   }
+}
+
+.video1 {
+  width: 300px;
 }
 
 .project-page {
@@ -81,7 +83,7 @@ p {
 
 .about-me {
   max-width: 700px;
-  margin-top: 140px;
+  margin-top: 145px;
   margin-bottom: 40px;
 }
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactPlayer from "react-player"
+
 
 const ProjectsModal = () => {
   const picClick = () => {
@@ -10,7 +12,13 @@ const ProjectsModal = () => {
     <>
 
     <div className='picture-card'>
-      <img  src='https://picsum.photos/300/200' />
+    <ReactPlayer
+      url={"https://vimeo.com/851785238/31e050b03c?share=copy"}
+      width='375px'
+      height='250px'
+      playing='true'
+      controls='true'
+      />
 
 
     </div>
