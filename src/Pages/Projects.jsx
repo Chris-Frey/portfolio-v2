@@ -9,7 +9,9 @@ const Projects = props => {
       <h3 className='samples'>My Work</h3>
 
       <ProjectsModal />
-      <p className='app-description'><a className='word-highlight'>Buddy</a> is an activity-meetup app that allows people to find someone to do an activity with, so they don't have to go alone.
+      <p className='title'>Buddy </p>
+      <p>
+      is an activity-meetup app that allows people to find someone to do an activity with, so they don't have to go alone.
       <br/>
       <em>Features include:</em>
         <ul className='app-list'>
@@ -17,8 +19,13 @@ const Projects = props => {
           <li>Create, edit, and delete activities</li>
           <li>Join activities created by other users</li>
           <li>Filter activities by type, and time until activity</li>
-
         </ul>
+      </p>
+
+
+      <p className='title'>Sign Up Element</p>
+      <p>
+      Response to a prompt from a UI challenge allowing a user to sign up for something.
       </p>
     </div>
 
