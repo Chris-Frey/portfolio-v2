@@ -1,6 +1,6 @@
 :root  {
-  --background-color-cards: rgb(19, 29, 53);
-  --background-color: #0f172a;
+  --background-color-cards: #2a2734;
+  --background-color: #DEAB63;
   --text-color-fade: rgb(187, 184, 184);
   --text-color-white: #e2e8f0;
   --text-color-pink: #ff5792;
@@ -49,9 +49,14 @@ body {
 }
 
 .about-me {
+  background-color: #2a2734;
+  border-radius: 10px;
   max-width: 700px;
   margin-top: 20px;
   margin-bottom: 40px;
+  padding-left: 20px;
+  box-shadow: #2a2734;
+  box-shadow: 3px 10px #2a273490, -1em 0 .4em #2a273471;
 }
 
 @media (max-width: 972px) {

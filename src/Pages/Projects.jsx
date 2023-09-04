@@ -23,6 +23,7 @@ const Projects = props => {
       </p>
 
 
+      <image src='src/assets/screenshot.png' alt='signup element with purple glow' />
       <p className='title'>Sign Up Element</p>
       <p>
       Response to a prompt from a UI challenge allowing a user to sign up for something.
